@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="relay_obsidian">#0A0A0A</color>
+    <color name="relay_white">#FFFFFF</color>
+    <color name="relay_text_secondary">#8A8A8A</color>
+    <color name="relay_text_body">#B8B8B8</color>
+    <color name="relay_hairline">#1F1F1F</color>
+    <color name="relay_border">#2A2A2A</color>
+    <color name="relay_danger">#E5484D</color>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- "Obsidian Minimal": Material 3 dark theme with every surface forced to #0A0A0A. -->
+    <style name="Theme.Relay" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/relay_white</item>
+        <item name="colorOnPrimary">@color/relay_obsidian</item>
+        <item name="colorSurface">@color/relay_obsidian</item>
+        <item name="colorOnSurface">@color/relay_white</item>
+        <item name="android:colorBackground">@color/relay_obsidian</item>
+        <item name="colorOnBackground">@color/relay_white</item>
+        <!-- Pill behind the selected bottom-nav tab. -->
+        <item name="colorSecondaryContainer">@color/relay_hairline</item>
+        <item name="colorOnSecondaryContainer">@color/relay_white</item>
+
+        <item name="android:windowBackground">@color/relay_obsidian</item>
+        <item name="android:statusBarColor">@color/relay_obsidian</item>
+        <item name="android:navigationBarColor">@color/relay_obsidian</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Relay.Text.SectionTitle">
+        <item name="android:textColor">@color/relay_white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Relay.Text.Body">
+        <item name="android:textColor">@color/relay_text_body</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingMultiplier">1.15</item>
+    </style>
+</resources>
